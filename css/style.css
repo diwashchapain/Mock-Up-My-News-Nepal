@@ -1,0 +1,263 @@
+a {
+  text-decoration: none;
+}
+
+.topbar {
+  background: #E41525;
+}
+.topbar .container a {
+  color: #fff;
+  font-size: 14px;
+}
+.topbar .social-icons li a {
+  color: #000;
+}
+.topbar .social-icons li {
+  background: #fff;
+  padding: 4px 6px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.topbar .social-icons li:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.navbar-expand-lg .navbar-collapse {
+  background-color: #255995;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 5px;
+  margin: 0px 4px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #d5a97a;
+}
+
+.navbar-nav .nav-link.active {
+  color: #d5a97a;
+}
+
+.main-news .container {
+  background-color: #f8f8f8;
+}
+
+.ads .container {
+  background-color: #f8f8f8;
+}
+
+.main-news h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #255995;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main-news h2:hover {
+  color: #000;
+}
+
+.latest h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+.latest .latest-left {
+  background-color: #255995;
+  color: #fff;
+}
+.latest a,
+.latest h4 {
+  color: #fff;
+}
+.latest p {
+  color: #CBC9CA;
+}
+.latest .button {
+  padding: 8px 20px;
+  border: 1px solid #fff;
+}
+.latest .button:hover {
+  border: 1px solid transparent;
+}
+.latest h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #255995;
+}
+.latest .box {
+  padding: 12px;
+  border: 1px solid #D2D2D2;
+}
+.latest .more-button {
+  color: #255995;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.multi-news h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.multi-news a {
+  color: #255995;
+}
+.multi-news h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.multi-news p {
+  border-bottom: 1px solid #CBC9CA;
+  padding-bottom: 8px;
+}
+.multi-news .box {
+  border: 1px solid #CBC9CA;
+  padding: 0 0 5px 0;
+  background-color: #fff;
+}
+.multi-news .box .img-hov {
+  overflow: hidden;
+}
+.multi-news .box .img-hov img {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.multi-news .box .img-hov img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.multi-news .box .img-hov a,
+.multi-news .box .img-hov h3 {
+  color: #fff;
+  font-size: 18px;
+  bottom: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.multi-news .box .img-hov a:hover,
+.multi-news .box .img-hov h3:hover {
+  color: #255995;
+}
+
+.more-button {
+  font-weight: bold;
+}
+
+.finance h3 {
+  font-size: 20px;
+}
+
+.finance-img {
+  height: 100px;
+  width: 150px !important;
+}
+
+.entertainment {
+  background-color: #FBFFE8;
+}
+.entertainment h3 {
+  font-size: 18px;
+}
+
+.entertainment-img {
+  height: 100px;
+  width: 150px !important;
+}
+
+.entertainment p {
+  border-bottom: none;
+}
+
+.english-news-section h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.english-news-section a {
+  color: #255995;
+}
+.english-news-section h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.english-news-section .box {
+  border: 1px solid #CBC9CA;
+  padding: 0 0 5px 0;
+  background-color: #fff;
+}
+
+.international-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.international-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.international-section h3 a {
+  color: #000;
+}
+.international-section h3 a:hover {
+  color: #255995;
+}
+.international-section .more-button {
+  font-weight: 400;
+  color: #000;
+}
+.international-section .box {
+  border: 1px solid #CBC9CA;
+  padding: 0 0 5px 0;
+  background-color: #fff;
+}
+
+.video h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.video a, .video h3 {
+  bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.video a:hover, .video h3:hover {
+  color: #2468b5;
+}
+
+.footer {
+  background: #0B4581;
+}
+.footer h3 {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+.footer p {
+  color: #CCCCCC;
+}
+.footer .icons li a {
+  color: #fff;
+}
+.footer .icons li {
+  background: #000;
+  padding: 3px 6px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  border-radius: 50%;
+}
+.footer .icons li:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+footer {
+  background-color: #E41525;
+}
+footer p {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
